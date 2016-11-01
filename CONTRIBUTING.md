@@ -1,4 +1,4 @@
-Use [Github issues](https://github.com/adazzle/react-data-grid/issues) for feature requests and bug reports.
+Use [Github issues](https://github.com/rtkwlf/react-data-grid/issues) for feature requests and bug reports.
 
 ## <a name="question"></a> Got a Question or Problem?
 
@@ -12,7 +12,7 @@ If you find a bug in the source code or a mistake in the documentation, you can 
 ## <a name="feature"></a> Want a Feature?
 You can *request* a new feature by submitting an issue to our [GitHub
 Repository][github]. If you would like to *implement* a new feature, please submit an issue with
-a proposal for your work first, to be sure that we can use it. 
+a proposal for your work first, to be sure that we can use it.
 Please consider what kind of change it is:
 
 * For a **Major Feature**, first open an issue and outline your proposal so that it can be

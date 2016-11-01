@@ -2,7 +2,7 @@
 ```
 [ ] bug report
 [ ] feature request
-[ ] support request => Please do not submit support request here, instead see https://github.com/adazzle/react-data-grid/blob/master/CONTRIBUTING.md
+[ ] support request => Please do not submit support request here, instead see https://github.com/rtkwlf/react-data-grid/blob/master/CONTRIBUTING.md
 ```
 
 **Current behavior**

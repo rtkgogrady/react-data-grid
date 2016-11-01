@@ -2,9 +2,9 @@
   "name": "react-data-grid",
   "main": "index.js",
   "version": "0.12.4",
-  "homepage": "https://github.com/adazzle/react-data-grid",
+  "homepage": "https://github.com/rtkwlf/react-data-grid",
   "authors": [
-    "malonecj <malonecj@gmail.com>"
+    "rtkwlf <it@arcticwolf.com>"
   ],
   "description": "Excel-like grid component built with React, with editors, keyboard navigation, copy & paste, and the like",
   "license": "MIT",

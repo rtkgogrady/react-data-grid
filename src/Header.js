@@ -177,10 +177,13 @@ const Header = React.createClass({
       'react-grid-Header--resizing': !!this.state.resizing
     });
     let headerRows = this.getHeaderRows();
-
+    let props = {
+      height: this.props.height,
+      onScroll: this.props.onScroll
+    };
     return (
 
-      <div {...this.props} style={this.getStyle()} className={className}>
+      <div {...props} style={this.getStyle()} className={className}>
         {headerRows}
       </div>
     );

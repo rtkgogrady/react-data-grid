@@ -79,9 +79,12 @@ const Grid = React.createClass({
   render(): ?ReactElement {
     let headerRows = this.props.headerRows || [{ref: 'row'}];
     let EmptyRowsView = this.props.emptyRowsView;
+    let props = {
+      contextMenu: this.props.contextMenu
+    };
 
     return (
-      <div {...this.props} style={this.getStyle()} className="react-grid-Grid">
+      <div {...props} style={this.getStyle()} className="react-grid-Grid">
         <Header
           ref="header"
           columnMetrics={this.props.columnMetrics}

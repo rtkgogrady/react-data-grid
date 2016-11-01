@@ -1,11 +1,8 @@
 {
   "name": "awn-react-data-grid",
-  "version": "1.0.55",
+  "version": "1.0.58",
   "description": "AWN: Data Grid for React",
   "main": "src/index.js",
-  "publishConfig": {
-    "registry": "http://npm.pkgs.infra.dev.awn/npm"
-  },
   "scripts": {
     "test": "gulp test",
     "prepublish": "gulp dist --release true",

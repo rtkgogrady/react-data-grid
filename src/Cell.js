@@ -20,7 +20,6 @@ const Cell = React.createClass({
     selectedColumn: React.PropTypes.object,
     height: React.PropTypes.number,
     tabIndex: React.PropTypes.number,
-    ref: React.PropTypes.string,
     column: React.PropTypes.shape(ExcelColumn).isRequired,
     value: React.PropTypes.oneOfType([React.PropTypes.string, React.PropTypes.number, React.PropTypes.object, React.PropTypes.bool]).isRequired,
     isExpanded: React.PropTypes.bool,
@@ -465,8 +464,16 @@ const Cell = React.createClass({
     let dragHandle = (!this.isActive() && ColumnUtils.canEdit(this.props.column, this.props.rowData, this.props.cellMetaData.enableCellSelect)) ? <div className="drag-handle" draggable="true" onDoubleClick={this.onDragHandleDoubleClick}><span style={{ display: 'none' }}></span></div> : null;
     let events = this.getEvents();
 
+    let props = {
+      selected: this.props.selected,
+      height: this.props.height,
+      tabIndex: this.props.tabIndex,
+      value: this.props.value,
+      className: this.props.className
+    };
+
     return (
-      <div {...this.props} className={className} style={style}   {...events}>
+      <div {...props} className={className} style={style}   {...events}>
         {cellContent}
         {dragHandle}
       </div>

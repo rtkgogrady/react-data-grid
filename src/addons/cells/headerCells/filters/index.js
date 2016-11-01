@@ -1,9 +1,7 @@
 import NumericFilter from './NumericFilter';
-import AutoCompleteFilter from './AutoCompleteFilter';
 
 const Filters = {
-  NumericFilter: NumericFilter,
-  AutoCompleteFilter: AutoCompleteFilter
+  NumericFilter: NumericFilter
 };
 
 module.exports = Filters;
